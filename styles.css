@@ -48,7 +48,7 @@ header {
     color: black;
 }
 
-.overlay:before {
+.overlay:after {
     content: ' ';
     display: block;
     position: absolute;
@@ -61,7 +61,8 @@ header {
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-size: cover;
-    z-index: 0;
+    z-index: -2;
+    pointer-events: none;
 }
 
 .container {
