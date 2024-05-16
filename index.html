@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bob's Bagels</title>
     <link rel="stylesheet" href="./styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,11 +15,14 @@
         crossorigin="anonymous" defer></script>
 </head>
 <body>
-    <div class="hero container">
-        <header>
-            <p class="logo">Bob's Bagels</p>
-            <nav>
-                <ul class="navbar-nav">
+    <div class="hero">
+        <div class="overlay"></div>
+        <header class="row justify-content-center items-align-center">
+            <div class="logo col-sm-12 col-md-1">
+                <img src="https://cdn-icons-png.flaticon.com/512/5318/5318608.png" alt="Bob's Bagels" / >
+            </div>
+            <nav class="navbar bg-body-tertiary col col-sm-12 col-md-6">
+                <ul class="nav container-fluid justify-content-center">
                     <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Bagel menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Order online</a></li>
@@ -27,47 +30,50 @@
                 </ul>
             </nav>
         </header>
-        <h1>Bob's bagels</h1>
-        <p>Freshly baked, filled and served to you daily </p>
-    </div>
-    <div class="container">
-        <section class="container"  border-style = "3px dotted red" width = 60%>
-            <div class="row">
-                <div class="col col-md-6">
-                    <h2>Bob's bagels since 1998</h2>            
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nesciunt, harum ab rerum voluptatum officia reprehenderit esse impedit placeat eos velit hic sint, at architecto voluptate earum! Ad, quibusdam! Quisquam nostrum iure quam. Nisi qui assumenda ullam totam blanditiis explicabo sequi. Blanditiis, consequuntur neque id pariatur magnam eligendi suscipit reiciendis amet! Accusamus, atque perspiciatis! Corrupti nobis maiores repudiandae quisquam mollitia sunt dolor ducimus amet inventore nemo quod eveniet eius, quibusdam laudantium facilis qui. Laborum necessitatibus ipsam suscipit sapiente, cumque molestiae vel esse distinctio repellendus dolores aliquam et fugit sit ut sint eligendi eaque aut assumenda officia. Earum soluta amet cum necessitatibus? Libero vel eum, ut commodi officia dolorum hic soluta, quasi perferendis quo a, id atque nisi possimus! Asperiores, aliquam.</p>
-                </div>
-                <div class="col col-md-6">
-                    <div id="carouselExample" class="carousel slide">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="https://www.layersofhappiness.com/wp-content/uploads/2023/07/Everything-Bagel-Breakfast-Sandwich-6-scaled.jpg" class="d-block w-100" alt="Everything Bagel Sandwich" width="200">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bagel_with_sesame_3.jpg/440px-Bagel_with_sesame_3.jpg" class="d-block w-100" alt="Sesame Bagel" width="200">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://www.justspices.co.uk/media/recipe/Avocado_Topping_Avocado_Bagel-3.jpg" class="d-block w-100" alt="Avocado Bagel" width="200">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://images.unsplash.com/photo-1613939490799-4a500f7120b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Salmon Bagel" width="200">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="https://plus.unsplash.com/premium_photo-1664126702530-7f961841de38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFnZWx8ZW58MHwwfDB8fHww" class="d-block w-100" alt="Bagel with toppings" width="200">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>        
-                </div>
-            </div>
-        </section>
+        <div class="row items-align-center justify-self-center">
+            <h1>Bob's bagels</h1>
+            <p>Freshly baked, filled and served to you daily </p>
         </div>
+    </div>
+    <section class="container" >
+        <div class="row">
+            <div class="col col-sm-12 col-md-6">
+                <h2>Bob's bagels since 1998</h2>            
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nesciunt, harum ab rerum voluptatum officia reprehenderit esse impedit placeat eos velit hic sint, at architecto voluptate earum! Ad, quibusdam! Quisquam nostrum iure quam. Nisi qui assumenda ullam totam blanditiis explicabo sequi. Blanditiis, consequuntur neque id pariatur magnam eligendi suscipit reiciendis amet! Accusamus, atque perspiciatis! Corrupti nobis maiores repudiandae quisquam mollitia sunt dolor ducimus amet inventore nemo quod eveniet eius, quibusdam laudantium facilis qui. Laborum necessitatibus ipsam suscipit sapiente, cumque molestiae vel esse distinctio repellendus dolores aliquam et fugit sit ut sint eligendi eaque aut assumenda officia. Earum soluta amet cum necessitatibus? Libero vel eum, ut commodi officia dolorum hic soluta, quasi perferendis quo a, id atque nisi possimus! Asperiores, aliquam.</p>
+            </div>
+            <div class="col col-sm-12 col-md-6">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img style="width:100%; height: 45%;" src="https://www.layersofhappiness.com/wp-content/uploads/2023/07/Everything-Bagel-Breakfast-Sandwich-6-scaled.jpg" class="d-block w-100" alt="Everything Bagel Sandwich" height= "150" width="200">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bagel_with_sesame_3.jpg/440px-Bagel_with_sesame_3.jpg" class="d-block w-100" alt="Sesame Bagel"  height= "150" width="200">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.justspices.co.uk/media/recipe/Avocado_Topping_Avocado_Bagel-3.jpg" class="d-block w-100" alt="Avocado Bagel" width="200">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.unsplash.com/photo-1613939490799-4a500f7120b7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" alt="Salmon Bagel"  height= "150" width="200">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://plus.unsplash.com/premium_photo-1664126702530-7f961841de38?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFnZWx8ZW58MHwwfDB8fHww" class="d-block w-100" alt="Bagel with toppings"  height= "150" width="200">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>        
+            </div>
+        </div>
+    </section>
+        <footer>
+        <p>&copy; 2024 Bob's Bagels</p>
+    </footer>
 </body>
 </html>
